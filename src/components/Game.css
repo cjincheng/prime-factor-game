@@ -1,0 +1,79 @@
+.game-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.target-number {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.prime-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.prime-button {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+}
+
+.prime-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.control-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.control-button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.correct {
+  color: #4CAF50;
+  background-color: #E8F5E9;
+}
+
+.incorrect {
+  color: #f44336;
+  background-color: #FFEBEE;
+} 
