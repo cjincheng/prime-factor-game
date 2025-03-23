@@ -73,7 +73,7 @@ export const Game: React.FC = () => {
     <div className="game-container">
       <h1>質因數分解遊戲</h1>
       <div className="target-number">
-        請找出 {targetNumber} 的所有質因數
+        請質因數分解 {targetNumber}
       </div>
       
       <div className="prime-buttons">

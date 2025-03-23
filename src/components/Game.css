@@ -18,20 +18,30 @@ h1 {
 
 .prime-buttons {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  grid-template-columns: repeat(5, 1fr);
   gap: 10px;
   margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .prime-button {
-  width: 60px;
-  height: 60px;
+  width: 100%;
+  height: 70px;
   border: 2px solid #ddd;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .prime-button:hover {
